@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedNavigation"
+    android:id="@+id/main"
+    app:startDestination="@+id/loginScreen">
+
+    <fragment
+        android:id="@+id/loginScreen"
+        android:name="com.example.ejemploapp.fragmets.LoginFragment"
+        android:label="@string/Login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/PrincipalScreen"
+        android:name="com.example.ejemploapp.fragmets.MainFragment"
+        android:label="@string/Principal"
+        tools:layout="@layout/fragment_main" />
+
+</navigation>
